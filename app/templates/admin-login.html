@@ -1,0 +1,19 @@
+{% extends 'admin/master.html' %}
+{% block body %}
+    {% if logout %}
+        <a href="{{url_for('admin.logout_view')}}">
+            <button type="button">退出登陆</button>
+        </a>
+    {% else %}
+    {% if msg %}
+        <p>{{msg}}</p>
+    {% endif %}
+    <form action="" method="post">
+        <p>登陆后台管理</p>
+        <input name="username" placeholder="Please Enter Username" />
+        <input name="password"
+            placeholder="Please Enter Password" />
+        <button type="submit">登陆
+    </form>
+    {% endif %}
+{% endblock %}
