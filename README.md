@@ -25,5 +25,5 @@
 * 进入前端目录、运行npm install、运行npm run serve、开始体验
 ## 联系作者
 如有疑问，请按以下方式联系，github有时候忙起来不看，但是B站和邮箱经常看
-[B站传送门] https://space.bilibili.com/26149458?from=search&seid=8690071795759649047&spm_id_from=333.337.0.0
+[B站传送门](https://space.bilibili.com/26149458?from=search&seid=8690071795759649047&spm_id_from=333.337.0.0)
 邮箱：37809979@qq.com或xnjust@outlook.com
